@@ -48,7 +48,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>demo21.jar</finalName>
+		<finalName>demo21</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
