@@ -39,7 +39,7 @@
 
 
 	<build>
-		<finalName>demo21</finalName>
+		<finalName>demo31</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
