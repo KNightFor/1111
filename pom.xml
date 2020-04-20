@@ -34,7 +34,41 @@
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
+		<dependency>
+			<groupId>redis.clients</groupId>
+			<artifactId>jedis</artifactId>
+			<version>3.2.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.10</version>
+		</dependency>
+
+
 	</dependencies>
+<<<<<<< Updated upstream
+=======
+
+	<repositories>
+		<repository>
+			<id>alimaven</id>
+			<name>Maven Aliyun Mirror</name>
+			<url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+
+>>>>>>> Stashed changes
 	<build>
 		<finalName>demo21</finalName>
 		<plugins>
