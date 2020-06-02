@@ -2,4 +2,8 @@
 Ȩ��
 567
 newlalal
+<<<<<<< Updated upstream
 wode
+=======
+qqqqq
+>>>>>>> Stashed changes

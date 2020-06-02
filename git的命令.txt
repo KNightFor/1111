@@ -1,0 +1,13 @@
+1> 从远处仓库拉取代码到本地（origin/code）git fetch origin code
+2> git log -p code2..origin/code2 查看命令
+3> git merge origin/code 合并origin/code到本地分支
+
+4> git reflog 查看所有的操作记录包括删除的。
+5> git fetch 默认拉取远处服务器的当前分支的代码
+6> git merge origin/code2 如果本地有修改没有提交的话，merge会报错，这样的话，我们可以先stash，隐藏
+自己本地的代码，然后merge，然后把自己的变化的地方放回来（git stash pop），最后解下冲突。
+
+
+Updated upstream到======为远处服务器的代码
+
+Stashed changes到======为本地服务器的代码
